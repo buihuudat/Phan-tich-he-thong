@@ -258,6 +258,25 @@ body {
     color: var(--white);
 }
 
+/* chart */
+
+.chartBar {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+}
+.chartBox {
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0,0,0,.08);
+    border-radius: 20px;    
+    display: grid;
+    min-height: 500px;
+}
+
 .details {
     position: relative;
     width: 100%;
