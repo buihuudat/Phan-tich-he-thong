@@ -25,26 +25,26 @@
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-                        <span class="title">Customer</span>
+                        <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></span>
+                        <span class="title">Tables</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
-                        <span class="title">Help</span>
+                        <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
+                        <span class="title">Calendar</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
-                        <span class="title">Settings</span>
+                        <span class="icon"><ion-icon name="map-outline"></ion-icon></span>
+                        <span class="title">Maps</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
-                        <span class="title">Password</span>
+                        <span class="icon"><ion-icon name="albums-outline"></ion-icon></ion-icon></span>
+                        <span class="title">Pages</span>
                     </a>
                 </li>
                 <li>
@@ -136,7 +136,13 @@
                 <div class="recentOrders">
                     <div class="cardHeader">
                         <h2>Recent Orders</h2>
-                        <a href="#" class="btn">View All</a>
+                        <select name="" id="" class="btn">
+                            <option value="">All</option>
+                            <option value="">Pending</option>
+                            <option value="">Delivered</option>
+                            <option value="">Return</option>
+                            <option value="">In Progress</option>
+                        </select>
                     </div>
                     <table>
                         <thead>
@@ -223,13 +229,64 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="customers">
+                    <div class="useHeader">
+                        <h2>List customers</h2>
+                        <select class="btn" name="" id="">
+                            <option value="">All</option>
+                            <option value="">Active</option>
+                            <option value="">Deactive</option>
+                        </select>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>STT</td>
+                                <td>Name</td>
+                                <td>Active</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="./asset/image/user.png" alt=""><span>Star Refrigerator</span></td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><img src="./asset/image/user.png" alt="">Window Coolers</td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><img src="./asset/image/user.png" alt="">Speakers</td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="./asset/image/user.png" alt="">Hp Laptop</td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><img src="./asset/image/user.png" alt="">Denim Shirts</td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><img src="./asset/image/user.png" alt="">Window Coolers</td>
+                                <td><ion-icon name="chevron-down-circle-outline"></ion-icon></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
-    <script src="asset/main.js"></script>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+<script src="asset/main.js"></script>
 </html>
